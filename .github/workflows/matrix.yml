@@ -1,6 +1,6 @@
 
 name: CI and Test across OS 
-on: [fork]
+on: [push]
 jobs:
   ci-test:
     strategy:
